@@ -514,6 +514,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.bottom-auto {
+  bottom: auto;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -587,6 +603,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
+.-mt-20 {
+  margin-top: -5rem;
+}
+
 .block {
   display: block;
 }
@@ -639,6 +659,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-width: 0px;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -673,6 +697,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .whitespace-nowrap {
@@ -748,6 +776,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-center {
   background-position: center;
+}
+
+.fill-current {
+  fill: currentColor;
 }
 
 .p-3 {
@@ -906,6 +938,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -962,6 +1004,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .md\:pr-12 {
+    padding-right: 3rem;
   }
 }
 
